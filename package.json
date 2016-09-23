@@ -6,19 +6,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zetzumarshen/grunt-bower.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zetzumarshen/grunt-bower/issues"
+  },
+  "homepage": "https://github.com/Zetzumarshen/grunt-bower#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-bower-concat": "^1.0.0",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.2",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-filerev": "^2.3.1",
-    "grunt-usemin": "^3.1.1",
     "grunt-wiredep": "^3.0.1"
   }
 }

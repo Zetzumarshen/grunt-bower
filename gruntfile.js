@@ -1,48 +1,59 @@
 module.exports = function (grunt) {
-    // Project configuration.
+
     grunt.initConfig({
-        wiredep: {
-            task:{
-                src: ['index.html','index.php']
+        bower_concat: {
+            build: {
+                dest: {
+                    'js': 'assets/js/vendor.js',
+                    'css': 'assets/css/vendor.css'
+                },
+                mainFiles: {
+                    'bootstrap': [
+                        'dist/css/bootstrap.css',
+                        'dist/js/bootstrap.js'
+                    ]
+                },
+                exclude: ['jquery'],
+                bowerOptions: {
+                    relative: false
+                }
             }
         },
-        useminPrepare: {
-            html: 'index.html',
-            options: {
-                dest: 'public'
+        uglify: {
+            build: {
+                files: [{
+                    expand: true,
+                    ext: '.min.js',
+                    src: 'assets/**/*.js'
+                }]
             }
         },
-        usemin: {
-            html: 'public/index.html'
+        cssmin: {
+            build: {
+                files: [{
+                    expand: true,
+                    src: 'assets/**/*.css',
+                    ext: '.min.css'
+                }]
+            }
         },
-        copy:{
-            html: {
-                src: 'index.html', dest: 'public/index.html'
+        copy: {
+            copy_fonts: {
+                files: [
+                    // include files in every folder named fonts
+                    {expand: true, flatten: true, src: ['**/fonts/*'], dest: 'assets/fonts', filter: 'isFile'},
+                ]
             }
         }
     });
-    // wiredep dependencies
-    grunt.loadNpmTasks('grunt-wiredep');
-    grunt.loadNpmTasks('grunt-contrib-watch');
 
-    // usemin dependencies
-    grunt.loadNpmTasks('grunt-usemin');
+    grunt.loadNpmTasks('grunt-bower-concat');
     grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-filerev');
-    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-copy')
 
+    grunt.registerTask('default', ['bower_concat', 'uglify', 'cssmin']);
 
-    grunt.registerTask('default',['wiredep']);
-
-    grunt.registerTask('my-usemin', [
-        'copy:html',
-        'useminPrepare',
-        'concat:generated',
-        'uglify:generated',
-        'cssmin:generated',
-        'usemin'
-    ]);
+    grunt.registerTask('copy_fonts', ['copy']);
 };

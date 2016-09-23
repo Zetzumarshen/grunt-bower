@@ -1,7 +1,5 @@
-This project is a skeleton for future project, especially for managing bower. 
+TODO: remove `grunt-wiredep grunt-contrib-watch`
 
-`npm init -y` to generate package.json
-
-don't remove gruntfile.js, spent hours of researching it.
+.bower.json is pointed by bower-concat mainFiles. Remove or alter it to pick adminLTE skin.
  
- TODO: php skeleton integration
+ 
