@@ -7,10 +7,18 @@ module.exports = function (grunt) {
             }
         },
         useminPrepare: {
-            html: 'index.html'
+            html: 'index.html',
+            options: {
+                dest: 'public'
+            }
         },
         usemin: {
             html: 'public/index.html'
+        },
+        copy:{
+            html: {
+                src: 'index.html', dest: 'public/index.html'
+            }
         }
     });
     // wiredep dependencies
@@ -24,10 +32,13 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-filerev');
+    grunt.loadNpmTasks('grunt-contrib-copy');
+
 
     grunt.registerTask('default',['wiredep']);
 
-    grunt.registerTask('usemin', [
+    grunt.registerTask('my-usemin', [
+        'copy:html',
         'useminPrepare',
         'concat:generated',
         'uglify:generated',
