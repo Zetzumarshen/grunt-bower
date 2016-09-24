@@ -4,14 +4,32 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AdminLTE 2 | Dashboard</title>
-    <link href="assets/css/vendor.css" rel="stylesheet">
+
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/AdminLTE/dist/css/skins/_all-skins.css" />
+    <link rel="stylesheet" href="bower_components/AdminLTE/dist/css/AdminLTE.css" />
+    <link rel="stylesheet" href="bower_components/AdminLTE/plugins/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-slider/slider.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css" />
+    <link rel="stylesheet" href="bower_components/datatables/media/css/jquery.dataTables.css" />
+    <link rel="stylesheet" href="bower_components/datepicker/css/datepicker.css" />
+    <link rel="stylesheet" href="bower_components/fullcalendar/dist/fullcalendar.css" />
+    <link rel="stylesheet" href="bower_components/ion.rangeSlider/css/ion.rangeSlider.css" />
+    <link rel="stylesheet" href="bower_components/ion.rangeSlider/css/ion.rangeSlider.skinFlat.css" />
+    <link rel="stylesheet" href="bower_components/morris.js/morris.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.css" />
+    <link rel="stylesheet" href="bower_components/modernize/modernize.css" />
+    <!-- endbower -->
+
     <script src="assets/js/jquery.js"></script>
-    <link href="assets/css/custom_css.css" rel="stylesheet">
+    <script src="assets/js/jquery-ui.js"></script>
+
  </head>
 <body class="hold-transition skin-blue sidebar-mini">
-<script type="text/javascript" src="assets/js/progress_loader.js"></script>
 <div class="loader"></div>
-
 <div class="wrapper">
 
     <header class="main-header">
@@ -1197,15 +1215,40 @@
 </div>
 <!-- ./wrapper -->
 
-
-<script src="assets/js/vendor.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script>
-    $noConf = jQuery.noConflict();
-    $noConf.widget.bridge('uibutton', $noConf.ui.button);
-</script>
+<!-- bower:js -->
+<script src="bower_components/AdminLTE/plugins/daterangepicker/moment.js"></script>
+<script src="bower_components/AdminLTE/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="bower_components/AdminLTE/plugins/knob/jquery.knob.js"></script>
+<script src="bower_components/bootstrap-slider/bootstrap-slider.js"></script>
+<script src="bower_components/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js"></script>
+<script src="bower_components/chart.js/dist/Chart.js"></script>
+<script src="bower_components/ckeditor/ckeditor.js"></script>
+<script src="bower_components/colorpicker/jquery.colorpicker.js"></script>
+<script src="bower_components/datatables/media/js/jquery.dataTables.js"></script>
+<script src="bower_components/underscore/underscore.js"></script>
+<script src="bower_components/moment/moment.js"></script>
+<script src="bower_components/daterangepicker/lib/timepicker/timepicker.js"></script>
+<script src="bower_components/fastclick/lib/fastclick.js"></script>
+<script src="bower_components/Flot/jquery.flot.js"></script>
+<script src="bower_components/fullcalendar/dist/fullcalendar.js"></script>
+<script src="bower_components/iCheck/icheck.min.js"></script>
+<script src="bower_components/jquery.inputmask/dist/inputmask/inputmask.js"></script>
+<script src="bower_components/ion.rangeSlider/js/ion.rangeSlider.js"></script>
+<script src="bower_components/gnob/gnob.js"></script>
+<script src="bower_components/eve/eve.js"></script>
+<script src="bower_components/raphael/raphael.min.js"></script>
+<script src="bower_components/mocha/mocha.js"></script>
+<script src="bower_components/morris.js/morris.js"></script>
+<script src="bower_components/PACE/pace.js"></script>
+<script src="bower_components/select2/dist/js/select2.js"></script>
+<script src="bower_components/jquery-slimscroll/jquery.slimscroll.js"></script>
+<script src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+<script src="bower_components/jquery-ui-sortable-fix/dist/jquery-ui-sortable.js"></script>
+<!-- endbower -->
+<script src="bower_components/AdminLTE/dist/js/app.js"></script>
 <script src="assets/js/dashboard.js"></script>
-<!-- AdminLTE for demo purposes -->
 <script src="assets/js/demo.js"></script>
 </body>
 </html>

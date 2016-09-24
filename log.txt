@@ -1,0 +1,455 @@
+Initializing
+Command-line options: --verbose
+
+Reading "gruntfile.js" Gruntfile...OK
+
+Registering Gruntfile tasks.
+Initializing config...OK
+
+Registering "grunt-bower-concat" local Npm module tasks.
+Reading D:\www\belajarci2\node_modules\grunt-bower-concat\package.json...OK
+Parsing D:\www\belajarci2\node_modules\grunt-bower-concat\package.json...OK
+Loading "bower-concat.js" tasks...OK
++ bower_concat
+
+Registering "grunt-contrib-concat" local Npm module tasks.
+Reading D:\www\belajarci2\node_modules\grunt-contrib-concat\package.json...OK
+Parsing D:\www\belajarci2\node_modules\grunt-contrib-concat\package.json...OK
+Loading "concat.js" tasks...OK
++ concat
+
+Registering "grunt-contrib-uglify" local Npm module tasks.
+Reading D:\www\belajarci2\node_modules\grunt-contrib-uglify\package.json...OK
+Parsing D:\www\belajarci2\node_modules\grunt-contrib-uglify\package.json...OK
+Loading "uglify.js" tasks...OK
++ uglify
+
+Registering "grunt-contrib-cssmin" local Npm module tasks.
+Reading D:\www\belajarci2\node_modules\grunt-contrib-cssmin\package.json...OK
+Parsing D:\www\belajarci2\node_modules\grunt-contrib-cssmin\package.json...OK
+Loading "cssmin.js" tasks...OK
++ cssmin
+
+Registering "grunt-contrib-copy" local Npm module tasks.
+Reading D:\www\belajarci2\node_modules\grunt-contrib-copy\package.json...OK
+Parsing D:\www\belajarci2\node_modules\grunt-contrib-copy\package.json...OK
+Loading "copy.js" tasks...OK
++ copy
+Loading "gruntfile.js" tasks...OK
++ copy_fonts, default
+
+No tasks specified, running default tasks.
+Running tasks: default
+
+Running "default" task
+
+Running "bower_concat" task
+
+Running "bower_concat:build" (bower_concat) task
+Verifying property bower_concat.build exists in config...OK
+Files: -> [object Object]
+Options: separator="\r\n"
+
+Finding main file for adminlte-bower...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\adminlte-bower\dist\js\app.js,D:\www\belajarci2\bower_components\adminlte-bower\dist\css\AdminLTE.css
+Reading D:\www\belajarci2\bower_components\adminlte-bower\dist\js\app.js...OK
+
+Finding main file for bootstrap-datepicker...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\bootstrap-datepicker\js\bootstrap-datepicker.js,D:\www\belajarci2\bower_components\bootstrap-datepicker\dist\css\bootstrap-datepicker.css,D:\www\belajarci2\bower_components\bootstrap-datepicker\dist\css\bootstrap-datepicker3.css
+Reading D:\www\belajarci2\bower_components\bootstrap-datepicker\js\bootstrap-datepicker.js...OK
+
+Finding main file for bootstrap3-wysihtml5-bower...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\bootstrap3-wysihtml5-bower\dist\bootstrap3-wysihtml5.min.js,D:\www\belajarci2\bower_components\bootstrap3-wysihtml5-bower\dist\bootstrap3-wysihtml5.min.css
+Reading D:\www\belajarci2\bower_components\bootstrap3-wysihtml5-bower\dist\bootstrap3-wysihtml5.min.js...OK
+
+Finding main file for bootstrap...
+Main file was specified in bower_concat options: bower_components\bootstrap\dist\css\bootstrap.css,bower_components\bootstrap\dist\js\bootstrap.js
+Reading bower_components\bootstrap\dist\js\bootstrap.js...OK
+
+Finding main file for bootstrap-daterangepicker...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\bootstrap-daterangepicker\daterangepicker.js,D:\www\belajarci2\bower_components\bootstrap-daterangepicker\daterangepicker-bs3.css
+Reading D:\www\belajarci2\bower_components\bootstrap-daterangepicker\daterangepicker.js...OK
+
+Finding main file for Chart.js...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\Chart.js\Chart.js
+Reading D:\www\belajarci2\bower_components\Chart.js\Chart.js...OK
+
+Finding main file for bower-jvectormap...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\bower-jvectormap\jquery-jvectormap-1.2.2.min.js
+Reading D:\www\belajarci2\bower_components\bower-jvectormap\jquery-jvectormap-1.2.2.min.js...OK
+
+Finding main file for ckeditor...
+Guessing the best JS file in a component’s folder: D:/www/belajarci2/bower_components/ckeditor/ckeditor.js
+Reading D:/www/belajarci2/bower_components/ckeditor/ckeditor.js...OK
+
+Finding main file for datatables...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\datatables\media\js\jquery.dataTables.js,D:\www\belajarci2\bower_components\datatables\media\css\jquery.dataTables.css
+Reading D:\www\belajarci2\bower_components\datatables\media\js\jquery.dataTables.js...OK
+
+Finding main file for fastclick...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\fastclick\lib\fastclick.js
+Reading D:\www\belajarci2\bower_components\fastclick\lib\fastclick.js...OK
+
+Finding main file for flot...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\flot\jquery.flot.js
+Reading D:\www\belajarci2\bower_components\flot\jquery.flot.js...OK
+
+Finding main file for components-font-awesome...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\components-font-awesome\css\font-awesome.css,D:\www\belajarci2\bower_components\components-font-awesome\scss\font-awesome.scss
+
+Finding main file for fullcalendar...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\fullcalendar\dist\fullcalendar.js,D:\www\belajarci2\bower_components\fullcalendar\dist\fullcalendar.css
+Reading D:\www\belajarci2\bower_components\fullcalendar\dist\fullcalendar.js...OK
+
+Finding main file for handlebars...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\handlebars\handlebars.js
+Reading D:\www\belajarci2\bower_components\handlebars\handlebars.js...OK
+
+Finding main file for html5shiv...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\html5shiv\dist\html5shiv.js
+Reading D:\www\belajarci2\bower_components\html5shiv\dist\html5shiv.js...OK
+
+Finding main file for ion.rangeSlider...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\ion.rangeSlider\js\ion.rangeSlider.js,D:\www\belajarci2\bower_components\ion.rangeSlider\css\ion.rangeSlider.css,D:\www\belajarci2\bower_components\ion.rangeSlider\css\ion.rangeSlider.skinFlat.css
+Reading D:\www\belajarci2\bower_components\ion.rangeSlider\js\ion.rangeSlider.js...OK
+
+Finding main file for jquery-bridget...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\jquery-bridget\jquery-bridget.js
+Reading D:\www\belajarci2\bower_components\jquery-bridget\jquery-bridget.js...OK
+
+Finding main file for jquery-knob...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\jquery-knob\js\jquery.knob.js
+Reading D:\www\belajarci2\bower_components\jquery-knob\js\jquery.knob.js...OK
+
+Finding main file for iCheck...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\iCheck\icheck.min.js
+Reading D:\www\belajarci2\bower_components\iCheck\icheck.min.js...OK
+
+Finding main file for ionicons...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\ionicons\css\ionicons.css
+
+Finding main file for jquery.inputmask...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.js,D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.extensions.js,D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.date.extensions.js,D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.numeric.extensions.js,D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.phone.extensions.js,D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.regex.extensions.js
+Reading D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.js...OK
+Reading D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.extensions.js...OK
+Reading D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.date.extensions.js...OK
+Reading D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.numeric.extensions.js...OK
+Reading D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.phone.extensions.js...OK
+Reading D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.regex.extensions.js...OK
+
+Finding main file for jquery-ui...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\jquery-ui\jquery-ui.js
+Reading D:\www\belajarci2\bower_components\jquery-ui\jquery-ui.js...OK
+
+Finding main file for mjolnic-bootstrap-colorpicker...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\mjolnic-bootstrap-colorpicker\dist\js\bootstrap-colorpicker.js,D:\www\belajarci2\bower_components\mjolnic-bootstrap-colorpicker\dist\css\bootstrap-colorpicker.css
+Reading D:\www\belajarci2\bower_components\mjolnic-bootstrap-colorpicker\dist\js\bootstrap-colorpicker.js...OK
+
+Finding main file for jqueryui-timepicker-addon...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\jqueryui-timepicker-addon\dist\jquery-ui-timepicker-addon.js,D:\www\belajarci2\bower_components\jqueryui-timepicker-addon\dist\jquery-ui-timepicker-addon.css
+Reading D:\www\belajarci2\bower_components\jqueryui-timepicker-addon\dist\jquery-ui-timepicker-addon.js...OK
+
+Finding main file for mocha...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\mocha\mocha.js
+Reading D:\www\belajarci2\bower_components\mocha\mocha.js...OK
+
+Finding main file for moment...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\moment\moment.js
+Reading D:\www\belajarci2\bower_components\moment\moment.js...OK
+
+Finding main file for modernizr...
+Main JS file not found
+>> Can’t detect any .assets/js/vendor.js on main files for "modernizr" component. You should explicitly define it via bower_concat’s mainFiles option. See Readme for details.
+
+Finding main file for pace...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\pace\pace.js
+Reading D:\www\belajarci2\bower_components\pace\pace.js...OK
+
+Finding main file for morris.js...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\morris.js\morris.js,D:\www\belajarci2\bower_components\morris.js\morris.css
+Reading D:\www\belajarci2\bower_components\morris.js\morris.js...OK
+
+Finding main file for respond...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\respond\dest\respond.src.js
+Reading D:\www\belajarci2\bower_components\respond\dest\respond.src.js...OK
+
+Finding main file for rangy-1.3...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-core.js,D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-cssclassapplier.js,D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-highlighter.js,D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-selectionsaverestore.js,D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-serializer.js,D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-textrange.js
+Reading D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-core.js...OK
+Reading D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-cssclassapplier.js...OK
+Reading D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-highlighter.js...OK
+Reading D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-selectionsaverestore.js...OK
+Reading D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-serializer.js...OK
+Reading D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-textrange.js...OK
+
+Finding main file for raphael...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\raphael\raphael.js
+Reading D:\www\belajarci2\bower_components\raphael\raphael.js...OK
+
+Finding main file for seiyria-bootstrap-slider...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\seiyria-bootstrap-slider\js\bootstrap-slider.js,D:\www\belajarci2\bower_components\seiyria-bootstrap-slider\dist\css\bootstrap-slider.css
+Reading D:\www\belajarci2\bower_components\seiyria-bootstrap-slider\js\bootstrap-slider.js...OK
+
+Finding main file for slimScroll...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\slimScroll\jquery.slimscroll.js,D:\www\belajarci2\bower_components\slimScroll\jquery.slimscroll.min.js
+Reading D:\www\belajarci2\bower_components\slimScroll\jquery.slimscroll.js...OK
+Reading D:\www\belajarci2\bower_components\slimScroll\jquery.slimscroll.min.js...OK
+
+Finding main file for wysihtml5x...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\wysihtml5x\dist\wysihtml5x.min.js,D:\www\belajarci2\bower_components\wysihtml5x\dist\wysihtml5x-toolbar.min.js
+Reading D:\www\belajarci2\bower_components\wysihtml5x\dist\wysihtml5x.min.js...OK
+Reading D:\www\belajarci2\bower_components\wysihtml5x\dist\wysihtml5x-toolbar.min.js...OK
+
+js: -> assets/js/vendor.js
+  ./bower_components\Chart.js\Chart.js [Chart.js] - 110.44 KB
+  ./bower_components\bootstrap\dist\js\bootstrap.js [bootstrap] - 68.07 KB
+  ./bower_components\bootstrap-datepicker\js\bootstrap-datepicker.js [bootstrap-datepicker] - 51.44 KB
+  ./bower_components\moment\moment.js [moment] - 99.85 KB
+  ./bower_components\bootstrap-daterangepicker\daterangepicker.js [bootstrap-daterangepicker] - 55.51 KB
+  ./bower_components\handlebars\handlebars.js [handlebars] - 90.25 KB
+  ./bower_components\rangy-1.3\uncompressed\rangy-core.js [rangy-1.3] - 145.87 KB
+  ./bower_components\rangy-1.3\uncompressed\rangy-cssclassapplier.js [rangy-1.3] - 37.39 KB
+  ./bower_components\rangy-1.3\uncompressed\rangy-highlighter.js [rangy-1.3] - 19.84 KB
+  ./bower_components\rangy-1.3\uncompressed\rangy-selectionsaverestore.js [rangy-1.3] - 8.17 KB
+  ./bower_components\rangy-1.3\uncompressed\rangy-serializer.js [rangy-1.3] - 11.08 KB
+  ./bower_components\rangy-1.3\uncompressed\rangy-textrange.js [rangy-1.3] - 74.69 KB
+  ./bower_components\wysihtml5x\dist\wysihtml5x.min.js [wysihtml5x] - 162.22 KB
+  ./bower_components\wysihtml5x\dist\wysihtml5x-toolbar.min.js [wysihtml5x] - 170.92 KB
+  ./bower_components\bootstrap3-wysihtml5-bower\dist\bootstrap3-wysihtml5.min.js [bootstrap3-wysihtml5-bower] - 24.57 KB
+  ./bower_components\bower-jvectormap\jquery-jvectormap-1.2.2.min.js [bower-jvectormap] - 32.55 KB
+  ./bower_components\ckeditor\ckeditor.js [ckeditor] - 455.23 KB
+  ./bower_components\datatables\media\js\jquery.dataTables.js [datatables] - 451.72 KB
+  ./bower_components\fastclick\lib\fastclick.js [fastclick] - 26.18 KB
+  ./bower_components\flot\jquery.flot.js [flot] - 123.18 KB
+  ./bower_components\fullcalendar\dist\fullcalendar.js [fullcalendar] - 315.91 KB
+  ./bower_components\html5shiv\dist\html5shiv.js [html5shiv] - 10.41 KB
+  ./bower_components\iCheck\icheck.min.js [iCheck] - 4.83 KB
+  ./bower_components\ion.rangeSlider\js\ion.rangeSlider.js [ion.rangeSlider] - 71.57 KB
+  ./bower_components\jquery-knob\js\jquery.knob.js [jquery-knob] - 26.4 KB
+  ./bower_components\jquery-ui\jquery-ui.js [jquery-ui] - 475.79 KB
+  ./bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.js [jquery.inputmask] - 88.32 KB
+  ./bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.extensions.js [jquery.inputmask] - 4.82 KB
+  ./bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.date.extensions.js [jquery.inputmask] - 22.18 KB
+  ./bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.numeric.extensions.js [jquery.inputmask] - 23.64 KB
+  ./bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.phone.extensions.js [jquery.inputmask] - 1.98 KB
+  ./bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.regex.extensions.js [jquery.inputmask] - 8.09 KB
+  ./bower_components\jqueryui-timepicker-addon\dist\jquery-ui-timepicker-addon.js [jqueryui-timepicker-addon] - 76.95 KB
+  ./bower_components\mjolnic-bootstrap-colorpicker\dist\js\bootstrap-colorpicker.js [mjolnic-bootstrap-colorpicker] - 41.75 KB
+  ./bower_components\mocha\mocha.js [mocha] - 125.96 KB
+  ./bower_components\raphael\raphael.js [raphael] - 305.17 KB
+  ./bower_components\morris.js\morris.js [morris.js] - 66.35 KB
+  ./bower_components\pace\pace.js [pace] - 26.86 KB
+  ./bower_components\respond\dest\respond.src.js [respond] - 8.55 KB
+  ./bower_components\jquery-bridget\jquery-bridget.js [jquery-bridget] - 3.64 KB
+  ./bower_components\seiyria-bootstrap-slider\js\bootstrap-slider.js [seiyria-bootstrap-slider] - 46.96 KB
+  ./bower_components\slimScroll\jquery.slimscroll.js [slimScroll] - 13.97 KB
+  ./bower_components\slimScroll\jquery.slimscroll.min.js [slimScroll] - 4.63 KB
+  ./bower_components\adminlte-bower\dist\js\app.js [adminlte-bower] - 21.04 KB
+
+Writing assets/js/vendor.js...OK
+File assets/js/vendor.js created.
+
+Finding main file for adminlte-bower...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\adminlte-bower\dist\js\app.js,D:\www\belajarci2\bower_components\adminlte-bower\dist\css\AdminLTE.css
+Reading D:\www\belajarci2\bower_components\adminlte-bower\dist\css\AdminLTE.css...OK
+
+Finding main file for bootstrap-datepicker...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\bootstrap-datepicker\js\bootstrap-datepicker.js,D:\www\belajarci2\bower_components\bootstrap-datepicker\dist\css\bootstrap-datepicker.css,D:\www\belajarci2\bower_components\bootstrap-datepicker\dist\css\bootstrap-datepicker3.css
+Reading D:\www\belajarci2\bower_components\bootstrap-datepicker\dist\css\bootstrap-datepicker.css...OK
+Reading D:\www\belajarci2\bower_components\bootstrap-datepicker\dist\css\bootstrap-datepicker3.css...OK
+
+Finding main file for bootstrap-daterangepicker...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\bootstrap-daterangepicker\daterangepicker.js,D:\www\belajarci2\bower_components\bootstrap-daterangepicker\daterangepicker-bs3.css
+Reading D:\www\belajarci2\bower_components\bootstrap-daterangepicker\daterangepicker-bs3.css...OK
+
+Finding main file for bootstrap3-wysihtml5-bower...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\bootstrap3-wysihtml5-bower\dist\bootstrap3-wysihtml5.min.js,D:\www\belajarci2\bower_components\bootstrap3-wysihtml5-bower\dist\bootstrap3-wysihtml5.min.css
+Reading D:\www\belajarci2\bower_components\bootstrap3-wysihtml5-bower\dist\bootstrap3-wysihtml5.min.css...OK
+
+Finding main file for bootstrap...
+Main file was specified in bower_concat options: bower_components\bootstrap\dist\css\bootstrap.css,bower_components\bootstrap\dist\js\bootstrap.js
+Reading bower_components\bootstrap\dist\css\bootstrap.css...OK
+
+Finding main file for ckeditor...
+Guessing the best JS file in a component’s folder: D:/www/belajarci2/bower_components/ckeditor/ckeditor.js
+Reading D:/www/belajarci2/bower_components/ckeditor/contents.css...OK
+
+Finding main file for Chart.js...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\Chart.js\Chart.js
+
+Finding main file for bower-jvectormap...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\bower-jvectormap\jquery-jvectormap-1.2.2.min.js
+
+Finding main file for components-font-awesome...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\components-font-awesome\css\font-awesome.css,D:\www\belajarci2\bower_components\components-font-awesome\scss\font-awesome.scss
+Reading D:\www\belajarci2\bower_components\components-font-awesome\css\font-awesome.css...OK
+
+Finding main file for datatables...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\datatables\media\js\jquery.dataTables.js,D:\www\belajarci2\bower_components\datatables\media\css\jquery.dataTables.css
+Reading D:\www\belajarci2\bower_components\datatables\media\css\jquery.dataTables.css...OK
+
+Finding main file for flot...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\flot\jquery.flot.js
+
+Finding main file for fullcalendar...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\fullcalendar\dist\fullcalendar.js,D:\www\belajarci2\bower_components\fullcalendar\dist\fullcalendar.css
+Reading D:\www\belajarci2\bower_components\fullcalendar\dist\fullcalendar.css...OK
+
+Finding main file for handlebars...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\handlebars\handlebars.js
+
+Finding main file for fastclick...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\fastclick\lib\fastclick.js
+
+Finding main file for ion.rangeSlider...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\ion.rangeSlider\js\ion.rangeSlider.js,D:\www\belajarci2\bower_components\ion.rangeSlider\css\ion.rangeSlider.css,D:\www\belajarci2\bower_components\ion.rangeSlider\css\ion.rangeSlider.skinFlat.css
+Reading D:\www\belajarci2\bower_components\ion.rangeSlider\css\ion.rangeSlider.css...OK
+Reading D:\www\belajarci2\bower_components\ion.rangeSlider\css\ion.rangeSlider.skinFlat.css...OK
+
+Finding main file for iCheck...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\iCheck\icheck.min.js
+
+Finding main file for html5shiv...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\html5shiv\dist\html5shiv.js
+
+Finding main file for jquery-bridget...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\jquery-bridget\jquery-bridget.js
+
+Finding main file for jquery-knob...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\jquery-knob\js\jquery.knob.js
+
+Finding main file for ionicons...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\ionicons\css\ionicons.css
+Reading D:\www\belajarci2\bower_components\ionicons\css\ionicons.css...OK
+
+Finding main file for jquery-ui...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\jquery-ui\jquery-ui.js
+
+Finding main file for jquery.inputmask...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.js,D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.extensions.js,D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.date.extensions.js,D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.numeric.extensions.js,D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.phone.extensions.js,D:\www\belajarci2\bower_components\jquery.inputmask\dist\inputmask\jquery.inputmask.regex.extensions.js
+
+Finding main file for jqueryui-timepicker-addon...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\jqueryui-timepicker-addon\dist\jquery-ui-timepicker-addon.js,D:\www\belajarci2\bower_components\jqueryui-timepicker-addon\dist\jquery-ui-timepicker-addon.css
+Reading D:\www\belajarci2\bower_components\jqueryui-timepicker-addon\dist\jquery-ui-timepicker-addon.css...OK
+
+Finding main file for mocha...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\mocha\mocha.js
+
+Finding main file for modernizr...
+Main JS file not found
+>> Can’t detect any .assets/css/vendor.css on main files for "modernizr" component. You should explicitly define it via bower_concat’s mainFiles option. See Readme for details.
+
+Finding main file for mjolnic-bootstrap-colorpicker...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\mjolnic-bootstrap-colorpicker\dist\js\bootstrap-colorpicker.js,D:\www\belajarci2\bower_components\mjolnic-bootstrap-colorpicker\dist\css\bootstrap-colorpicker.css
+Reading D:\www\belajarci2\bower_components\mjolnic-bootstrap-colorpicker\dist\css\bootstrap-colorpicker.css...OK
+
+Finding main file for moment...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\moment\moment.js
+
+Finding main file for morris.js...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\morris.js\morris.js,D:\www\belajarci2\bower_components\morris.js\morris.css
+Reading D:\www\belajarci2\bower_components\morris.js\morris.css...OK
+
+Finding main file for rangy-1.3...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-core.js,D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-cssclassapplier.js,D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-highlighter.js,D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-selectionsaverestore.js,D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-serializer.js,D:\www\belajarci2\bower_components\rangy-1.3\uncompressed\rangy-textrange.js
+
+Finding main file for pace...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\pace\pace.js
+
+Finding main file for respond...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\respond\dest\respond.src.js
+
+Finding main file for seiyria-bootstrap-slider...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\seiyria-bootstrap-slider\js\bootstrap-slider.js,D:\www\belajarci2\bower_components\seiyria-bootstrap-slider\dist\css\bootstrap-slider.css
+Reading D:\www\belajarci2\bower_components\seiyria-bootstrap-slider\dist\css\bootstrap-slider.css...OK
+
+Finding main file for raphael...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\raphael\raphael.js
+
+Finding main file for slimScroll...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\slimScroll\jquery.slimscroll.js,D:\www\belajarci2\bower_components\slimScroll\jquery.slimscroll.min.js
+
+Finding main file for wysihtml5x...
+Main file was specified in bower.json: D:\www\belajarci2\bower_components\wysihtml5x\dist\wysihtml5x.min.js,D:\www\belajarci2\bower_components\wysihtml5x\dist\wysihtml5x-toolbar.min.js
+
+css: -> assets/css/vendor.css
+  ./bower_components\bootstrap\dist\css\bootstrap.css [bootstrap] - 142.59 KB
+  ./bower_components\bootstrap-datepicker\dist\css\bootstrap-datepicker.css [bootstrap-datepicker] - 17.15 KB
+  ./bower_components\bootstrap-datepicker\dist\css\bootstrap-datepicker3.css [bootstrap-datepicker] - 32.81 KB
+  ./bower_components\bootstrap-daterangepicker\daterangepicker-bs3.css [bootstrap-daterangepicker] - 7 KB
+  ./bower_components\components-font-awesome\css\font-awesome.css [components-font-awesome] - 34.49 KB
+  ./bower_components\bootstrap3-wysihtml5-bower\dist\bootstrap3-wysihtml5.min.css [bootstrap3-wysihtml5-bower] - 2.18 KB
+  ./bower_components\ckeditor\contents.css [ckeditor] - 1.8 KB
+  ./bower_components\datatables\media\css\jquery.dataTables.css [datatables] - 15.5 KB
+  ./bower_components\fullcalendar\dist\fullcalendar.css [fullcalendar] - 24.93 KB
+  ./bower_components\ion.rangeSlider\css\ion.rangeSlider.css [ion.rangeSlider] - 3.47 KB
+  ./bower_components\ion.rangeSlider\css\ion.rangeSlider.skinFlat.css [ion.rangeSlider] - 2.26 KB
+  ./bower_components\ionicons\css\ionicons.css [ionicons] - 57.3 KB
+  ./bower_components\jqueryui-timepicker-addon\dist\jquery-ui-timepicker-addon.css [jqueryui-timepicker-addon] - 1.67 KB
+  ./bower_components\mjolnic-bootstrap-colorpicker\dist\css\bootstrap-colorpicker.css [mjolnic-bootstrap-colorpicker] - 4.48 KB
+  ./bower_components\morris.js\morris.css [morris.js] - 435 B
+  ./bower_components\seiyria-bootstrap-slider\dist\css\bootstrap-slider.css [seiyria-bootstrap-slider] - 8.12 KB
+  ./bower_components\adminlte-bower\dist\css\AdminLTE.css [adminlte-bower] - 102.14 KB
+
+Writing assets/css/vendor.css...OK
+File assets/css/vendor.css created.
+
+Running "uglify" task
+
+Running "uglify:build" (uglify) task
+Verifying property uglify.build exists in config...OK
+Files: assets/js/custom_script.min.js -> assets/js/custom_script.min.js
+Files: assets/js/dashboard.js -> assets/js/dashboard.min.js
+Files: assets/js/demo.js -> assets/js/demo.min.js
+Files: assets/js/jquery.js, assets/js/jquery.min.js -> assets/js/jquery.min.js
+Files: assets/js/progress_loader.js -> assets/js/progress_loader.min.js
+Files: assets/js/vendor.js, assets/js/vendor.min.js -> assets/js/vendor.min.js
+Options: banner="", footer="", compress={"warnings":false}, mangle={}, beautify=false, report="min", expression=false, maxLineLen=32000, ASCIIOnly=false, screwIE8, quoteStyle=0
+Minifying with UglifyJS...Reading assets/js/custom_script.min.js...OK
+OK
+Writing assets/js/custom_script.min.js...OK
+File assets/js/custom_script.min.js created: 1.54 kB → 1.54 kB
+Minifying with UglifyJS...Reading assets/js/dashboard.js...OK
+OK
+Writing assets/js/dashboard.min.js...OK
+File assets/js/dashboard.min.js created: 10.41 kB → 0 B
+Minifying with UglifyJS...Reading assets/js/demo.js...OK
+OK
+Writing assets/js/demo.min.js...OK
+File assets/js/demo.min.js created: 18.21 kB → 12.66 kB
+Minifying with UglifyJS...Reading assets/js/jquery.js...OK
+Reading assets/js/jquery.min.js...OK
+OK
+Writing assets/js/jquery.min.js...OK
+File assets/js/jquery.min.js created: 364.13 kB → 174.38 kB
+Minifying with UglifyJS...Reading assets/js/progress_loader.js...OK
+OK
+Writing assets/js/progress_loader.min.js...OK
+File assets/js/progress_loader.min.js created: 72 B → 62 B
+Minifying with UglifyJS...Reading assets/js/vendor.js...OK
+Reading assets/js/vendor.min.js...OK
+OK
+Writing assets/js/vendor.min.js...OK
+File assets/js/vendor.min.js created: 8.38 MB → 6.32 MB
+>> 6 files created.
+
+Running "cssmin" task
+
+Running "cssmin:build" (cssmin) task
+Verifying property cssmin.build exists in config...OK
+Files: assets/css/custom_css.css, assets/css/custom_css.min.css -> assets/css/custom_css.min.css
+Files: assets/css/vendor.css, assets/css/vendor.min.css -> assets/css/vendor.min.css
+Options: rebase=false, report="min", sourceMap=false
+Reading assets/css/custom_css.css...OK
+Reading assets/css/custom_css.min.css...OK
+Writing assets/css/custom_css.min.css...OK
+File assets/css/custom_css.min.css created 404 B → 336 B
+Options: rebase=false, report="min", sourceMap=false
+>> Ignoring remote @import of "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" as no callback given.
+Reading assets/css/vendor.css...OK
+Reading assets/css/vendor.min.css...OK
+Writing assets/css/vendor.min.css...OK
+File assets/css/vendor.min.css created 860.02 kB → 405.96 kB
+>> 2 files created. 860.43 kB → 406.29 kB
+
+Done.
